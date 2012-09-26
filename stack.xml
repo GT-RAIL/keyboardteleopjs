@@ -1,0 +1,9 @@
+<stack>
+	<description brief="Keyboard teleoperation bindings via Twist messages in Javascript.">Keyboard teleoperation bindings via Twist messages in Javascript.</description>
+	<author>Russell Toris</author>
+	<license>BSD</license>  
+	<review status="unreviewed" notes="" />
+	<url>http://ros.org/wiki/keyboardteleopjs</url>
+
+	<depend stack="ros" />
+</stack>

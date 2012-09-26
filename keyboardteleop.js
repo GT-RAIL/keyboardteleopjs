@@ -34,7 +34,7 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  *
  *   Author: Russell Toris
- *  Version: September 12, 2012
+ *  Version: September 26, 2012
  *
  *********************************************************************/
 
@@ -43,8 +43,11 @@ var KeyboardTeleop = function(options) {
 	options = options || {};
 	keyboardTeleop.ros = options.ros;
 	keyboardTeleop.topic = options.topic || '/cmd_vel';
+	// permanent throttle
 	keyboardTeleop.throttle = options.throttle || 1;
 	keyboardTeleop.slider = options.slider;
+	// used to externally throttle the speed (e.g., from a slider)
+	keyboardTeleop.scale = options.scale || 1;
 
 	// linear x and y movement and angular z movement
 	var x = 0;
@@ -56,46 +59,39 @@ var KeyboardTeleop = function(options) {
 		messageType : 'geometry_msgs/Twist'
 	});
 
-	/*
-	 * Sets up a key listener on the page used for keyboard teleoperation.
-	 */
-	function handleKey(keyCode, keyDown) {
-		var scale = 0;
+	// sets up a key listener on the page used for keyboard teleoperation
+	var handleKey = function(keyCode, keyDown) {
+		var speed = 0;
 		// throttle the speed by the slider and throttle constant
 		if (keyDown == true) {
-			if (keyboardTeleop.slider) {
-				scale = $('#' + keyboardTeleop.slider).slider('value') / 100;
-			} else {
-				scale = 1;
-			}
-			scale *= keyboardTeleop.throttle;
+			speed = keyboardTeleop.throttle * keyboardTeleop.scale;
 		}
 		// check which key was pressed
 		switch (keyCode) {
 		case 65:
 			// turn left
-			z = 1 * scale;
+			z = 1 * speed;
 			break;
 		case 87:
 			// up
-			x = .5 * scale;
+			x = .5 * speed;
 
 			break;
 		case 68:
 			// turn right
-			z = -1 * scale;
+			z = -1 * speed;
 			break;
 		case 83:
 			// down
-			x = -.5 * scale;
+			x = -.5 * speed;
 			break;
 		case 69:
 			// strafe right
-			y = -.5 * scale;
+			y = -.5 * speed;
 			break;
 		case 81:
 			// strafe left
-			y = .5 * scale;
+			y = .5 * speed;
 			break;
 		}
 
@@ -113,15 +109,14 @@ var KeyboardTeleop = function(options) {
 			}
 		});
 		cmdVel.publish(twist);
-	}
+	};
 
 	// handle the key
-	$('body').keydown(function(e) {
+	var body = document.getElementsByTagName('body')[0];
+	body.addEventListener('keydown', function(e) {
 		handleKey(e.keyCode, true);
-	});
-
-	// sets the speed to 0 on keyup
-	$('body').keyup(function(e) {
+	}, false);
+	body.addEventListener('keyup', function(e) {
 		handleKey(e.keyCode, false);
-	});
+	}, false);
 };
