@@ -45,7 +45,6 @@ var KeyboardTeleop = function(options) {
   keyboardTeleop.topic = options.topic || '/cmd_vel';
   // permanent throttle
   keyboardTeleop.throttle = options.throttle || 1;
-  keyboardTeleop.slider = options.slider;
   // used to externally throttle the speed (e.g., from a slider)
   keyboardTeleop.scale = options.scale || 1;
 
