@@ -11,37 +11,36 @@
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 <script type="text/javascript"
-	src="https://raw.github.com/RobotWebTools/rosjs/fuerte-devel/example/eventemitter2.js"></script>
-<script type="text/javascript"
-	src="https://raw.github.com/RobotWebTools/rosjs/fuerte-devel/ros.js"></script>
+	src="https://raw.github.com/RobotWebTools/rosjs/fuerte-devel/dist/ros_bundle.min.js"></script>
 
 <script type="text/javascript" src="../keyboardteleop.js"></script>
 
 <script type="text/javascript">
-	function start() {
-		// connect to ROS 
-		var ros = new ROS('ws://localhost:9090');
+  function start() {
+    // connect to ROS 
+    var ros = new ROS('ws://localhost:9090');
 
-		// initialize the teleop 
-		var teleop = new KeyboardTeleop({
-			ros : ros
-			, topic : '/base_controller/command'
-			, throttle: 0.8
-			, slider : 'speed-slider'
-		});
-		
-		$("#speed-slider").slider({
-			range: "min",
-			min: 0,
-			max: 100,
-			value: 90,
-			slide: function(event, ui) {
-				$("#speed-label").html("Speed: "+ui.value+"%");
-				teleop.scale = (ui.value/100.0);
-			}
-		});
-		$("#speed-label").html("Speed: "+($("#speed-slider").slider("value"))+"%");
-	}
+    // initialize the teleop 
+    var teleop = new KeyboardTeleop({
+      ros : ros,
+      topic : '/base_controller/command',
+      throttle : 0.8,
+      slider : 'speed-slider'
+    });
+
+    $("#speed-slider").slider({
+      range : "min",
+      min : 0,
+      max : 100,
+      value : 90,
+      slide : function(event, ui) {
+        $("#speed-label").html("Speed: " + ui.value + "%");
+        teleop.scale = (ui.value / 100.0);
+      }
+    });
+    $("#speed-label").html(
+        "Speed: " + ($("#speed-slider").slider("value")) + "%");
+  }
 </script>
 </head>
 

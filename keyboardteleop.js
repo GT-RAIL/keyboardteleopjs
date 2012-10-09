@@ -34,7 +34,7 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  *
  *   Author: Russell Toris
- *  Version: September 26, 2012
+ *  Version: October 8, 2012
  *
  *********************************************************************/
 
@@ -60,6 +60,11 @@ var KeyboardTeleop = function(options) {
 
   // sets up a key listener on the page used for keyboard teleoperation
   var handleKey = function(keyCode, keyDown) {
+    // used to check for changes in speed
+    var _x = x;
+    var _y = y;
+    var _z = z;
+
     var speed = 0;
     // throttle the speed by the slider and throttle constant
     if (keyDown == true) {
@@ -108,6 +113,11 @@ var KeyboardTeleop = function(options) {
       }
     });
     cmdVel.publish(twist);
+    
+    // check for changes
+    if (_x !== x || _y !== y || _z !== z) {
+      keyboardTeleop.emit('change', twist);
+    }
   };
 
   // handle the key
@@ -119,3 +129,4 @@ var KeyboardTeleop = function(options) {
     handleKey(e.keyCode, false);
   }, false);
 };
+KeyboardTeleop.prototype.__proto__ = EventEmitter2.prototype;
