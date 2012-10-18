@@ -9,9 +9,9 @@ var KeyboardTeleop = function(options) {
   keyboardTeleop.ros = options.ros;
   keyboardTeleop.topic = options.topic || '/cmd_vel';
   // permanent throttle
-  keyboardTeleop.throttle = options.throttle || 1;
+  keyboardTeleop.throttle = options.throttle || 1.0;
   // used to externally throttle the speed (e.g., from a slider)
-  keyboardTeleop.scale = options.scale || 1;
+  keyboardTeleop.scale = options.scale || 1.0;
 
   // linear x and y movement and angular z movement
   var x = 0;
