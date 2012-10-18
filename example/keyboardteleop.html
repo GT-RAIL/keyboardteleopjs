@@ -24,22 +24,27 @@
     var teleop = new KeyboardTeleop({
       ros : ros,
       topic : '/base_controller/command',
-      throttle : 0.8,
-      slider : 'speed-slider'
+      throttle : 0.8
     });
 
-    $("#speed-slider").slider({
+    // create a UI slider using JQuery UI
+    $('#speed-slider').slider({
       range : "min",
       min : 0,
       max : 100,
       value : 90,
       slide : function(event, ui) {
-        $("#speed-label").html("Speed: " + ui.value + "%");
+        // change the speed label
+        $('#speed-label').html('Speed: ' + ui.value + '%');
+        // scale the speed
         teleop.scale = (ui.value / 100.0);
       }
     });
-    $("#speed-label").html(
-        "Speed: " + ($("#speed-slider").slider("value")) + "%");
+
+    // set the initial speed 
+    $('#speed-label').html(
+        'Speed: ' + ($('#speed-slider').slider('value')) + '%');
+    teleop.scale = ($('#speed-slider').slider('value') / 100.0);
   }
 </script>
 </head>
