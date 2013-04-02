@@ -1,0 +1,811 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', '-g', 'install', 'yuidocjs' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose read json /usr/lib/package.json
+5 verbose read json /usr/lib/package.json
+6 verbose cache add [ 'yuidocjs', null ]
+7 verbose cache add name=undefined spec="yuidocjs" args=["yuidocjs",null]
+8 verbose parsed url { pathname: 'yuidocjs', path: 'yuidocjs', href: 'yuidocjs' }
+9 silly lockFile 604a54ee-yuidocjs yuidocjs
+10 verbose lock yuidocjs /u/rtoris/.npm/604a54ee-yuidocjs.lock
+11 silly lockFile 604a54ee-yuidocjs yuidocjs
+12 silly lockFile 604a54ee-yuidocjs yuidocjs
+13 verbose addNamed [ 'yuidocjs', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 21cb9463-yuidocjs yuidocjs@
+16 verbose lock yuidocjs@ /u/rtoris/.npm/21cb9463-yuidocjs.lock
+17 silly addNameRange { name: 'yuidocjs', range: '', hasData: false }
+18 verbose url raw yuidocjs
+19 verbose url resolving [ 'https://registry.npmjs.org/', './yuidocjs' ]
+20 verbose url resolved https://registry.npmjs.org/yuidocjs
+21 info trying registry request attempt 1 at 11:47:30
+22 http GET https://registry.npmjs.org/yuidocjs
+23 http 200 https://registry.npmjs.org/yuidocjs
+24 silly registry.get cb [ 200,
+24 silly registry.get   { vary: 'Accept',
+24 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+24 silly registry.get     etag: '"3AROOMBK83ITEE32GGW6Z7MBV"',
+24 silly registry.get     date: 'Tue, 02 Apr 2013 18:47:30 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '216068' } ]
+25 silly addNameRange number 2 { name: 'yuidocjs', range: '', hasData: true }
+26 silly addNameRange versions [ 'yuidocjs',
+26 silly addNameRange   [ '0.2.6',
+26 silly addNameRange     '0.2.7',
+26 silly addNameRange     '0.2.8',
+26 silly addNameRange     '0.2.9',
+26 silly addNameRange     '0.2.10',
+26 silly addNameRange     '0.2.11',
+26 silly addNameRange     '0.2.12',
+26 silly addNameRange     '0.2.13',
+26 silly addNameRange     '0.2.14',
+26 silly addNameRange     '0.2.15',
+26 silly addNameRange     '0.2.16',
+26 silly addNameRange     '0.2.17',
+26 silly addNameRange     '0.2.18',
+26 silly addNameRange     '0.2.19',
+26 silly addNameRange     '0.2.20',
+26 silly addNameRange     '0.2.21',
+26 silly addNameRange     '0.2.22',
+26 silly addNameRange     '0.2.23',
+26 silly addNameRange     '0.2.24',
+26 silly addNameRange     '0.2.25',
+26 silly addNameRange     '0.2.26',
+26 silly addNameRange     '0.2.27',
+26 silly addNameRange     '0.2.28',
+26 silly addNameRange     '0.2.29',
+26 silly addNameRange     '0.2.30',
+26 silly addNameRange     '0.2.31',
+26 silly addNameRange     '0.2.32',
+26 silly addNameRange     '0.2.33',
+26 silly addNameRange     '0.2.34',
+26 silly addNameRange     '0.2.35',
+26 silly addNameRange     '0.2.36',
+26 silly addNameRange     '0.2.37',
+26 silly addNameRange     '0.2.38',
+26 silly addNameRange     '0.2.39',
+26 silly addNameRange     '0.2.40',
+26 silly addNameRange     '0.2.41',
+26 silly addNameRange     '0.2.42',
+26 silly addNameRange     '0.2.43',
+26 silly addNameRange     '0.2.44',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.3.5',
+26 silly addNameRange     '0.3.6',
+26 silly addNameRange     '0.3.7',
+26 silly addNameRange     '0.3.8',
+26 silly addNameRange     '0.3.9',
+26 silly addNameRange     '0.3.10',
+26 silly addNameRange     '0.3.11',
+26 silly addNameRange     '0.3.12',
+26 silly addNameRange     '0.3.13',
+26 silly addNameRange     '0.3.14',
+26 silly addNameRange     '0.3.15',
+26 silly addNameRange     '0.3.16',
+26 silly addNameRange     '0.3.17',
+26 silly addNameRange     '0.3.18',
+26 silly addNameRange     '0.3.19',
+26 silly addNameRange     '0.3.20',
+26 silly addNameRange     '0.3.21',
+26 silly addNameRange     '0.3.22',
+26 silly addNameRange     '0.3.23',
+26 silly addNameRange     '0.3.24',
+26 silly addNameRange     '0.3.25',
+26 silly addNameRange     '0.3.26',
+26 silly addNameRange     '0.3.27',
+26 silly addNameRange     '0.3.28',
+26 silly addNameRange     '0.3.29',
+26 silly addNameRange     '0.3.30',
+26 silly addNameRange     '0.3.31',
+26 silly addNameRange     '0.3.32',
+26 silly addNameRange     '0.3.33',
+26 silly addNameRange     '0.3.34',
+26 silly addNameRange     '0.3.35',
+26 silly addNameRange     '0.3.36',
+26 silly addNameRange     '0.3.37',
+26 silly addNameRange     '0.3.38',
+26 silly addNameRange     '0.3.39',
+26 silly addNameRange     '0.3.40' ] ]
+27 verbose addNamed [ 'yuidocjs', '0.3.40' ]
+28 verbose addNamed [ '0.3.40', '0.3.40' ]
+29 silly lockFile 4faee754-yuidocjs-0-3-40 yuidocjs@0.3.40
+30 verbose lock yuidocjs@0.3.40 /u/rtoris/.npm/4faee754-yuidocjs-0-3-40.lock
+31 silly lockFile 2d5f8882-org-yuidocjs-yuidocjs-0-3-40-tgz https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz
+32 verbose lock https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz /u/rtoris/.npm/2d5f8882-org-yuidocjs-yuidocjs-0-3-40-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz',
+33 verbose addRemoteTarball   '1d64ae417af5e32e6b78e9820fa45ce2b19b5546' ]
+34 info retry fetch attempt 1 at 11:47:30
+35 verbose fetch to= /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz
+36 http GET https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz
+37 http 200 https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz
+38 silly shasum updated bytes 40960
+39 silly shasum updated bytes 40960
+40 silly shasum updated bytes 40960
+41 silly shasum updated bytes 40960
+42 silly shasum updated bytes 40960
+43 silly shasum updated bytes 40960
+44 silly shasum updated bytes 40960
+45 silly shasum updated bytes 40960
+46 silly shasum updated bytes 40960
+47 silly shasum updated bytes 40960
+48 silly shasum updated bytes 40960
+49 silly shasum updated bytes 40960
+50 silly shasum updated bytes 40960
+51 silly shasum updated bytes 40960
+52 silly shasum updated bytes 40960
+53 silly shasum updated bytes 40960
+54 silly shasum updated bytes 12285
+55 info shasum 1d64ae417af5e32e6b78e9820fa45ce2b19b5546
+55 info shasum /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz
+56 verbose tar unpack /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz
+57 silly lockFile 342712ea-50814-0-6198695222847164-package /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+58 verbose lock /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package /u/rtoris/.npm/342712ea-50814-0-6198695222847164-package.lock
+59 silly lockFile e76d932b-50814-0-6198695222847164-tmp-tgz /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz
+60 verbose lock /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz /u/rtoris/.npm/e76d932b-50814-0-6198695222847164-tmp-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry LICENSE
+66 silly gunzTarPerm extractEntry tests/builder.js
+67 silly gunzTarPerm extractEntry tests/parser.js
+68 silly gunzTarPerm extractEntry tests/utils.js
+69 silly gunzTarPerm extractEntry tests/parser_coffee.js
+70 silly gunzTarPerm extractEntry tests/options.js
+71 silly gunzTarPerm extractEntry tests/input/test/test.js
+72 silly gunzTarPerm extractEntry tests/input/test/anim.js
+73 silly gunzTarPerm extractEntry tests/input/json/stringify.js
+74 silly gunzTarPerm extractEntry tests/input/json/parse.js
+75 silly gunzTarPerm extractEntry tests/input/folders1/yuidoc.json
+76 silly gunzTarPerm extractEntry tests/input/folders1/one/two/yuidoc.json
+77 silly gunzTarPerm extractEntry tests/input/folders5/two/package.json
+78 silly gunzTarPerm extractEntry tests/input/folders5/two/yuidoc.json
+79 silly gunzTarPerm extractEntry tests/input/folders5/one/three/yuidoc.json
+80 silly gunzTarPerm extractEntry tests/input/namespace/ns.js
+81 silly gunzTarPerm extractEntry tests/input/folders3/package.json
+82 silly gunzTarPerm extractEntry tests/input/folders3/yuidoc.json
+83 silly gunzTarPerm extractEntry tests/input/folders3/one/package.json
+84 silly gunzTarPerm extractEntry tests/input/folders3/one/two/yuidoc.json
+85 silly gunzTarPerm extractEntry tests/input/inherit/examplemodule.js
+86 silly gunzTarPerm extractEntry tests/input/folders2/package.json
+87 silly gunzTarPerm extractEntry tests/input/folders2/one/two/yuidoc.json
+88 silly gunzTarPerm extractEntry tests/input/coffee/test.coffee
+89 silly gunzTarPerm extractEntry tests/input/folders4/one/yuidoc.json
+90 silly gunzTarPerm extractEntry tests/input/folders4/one/two/package.json
+91 silly gunzTarPerm extractEntry tests/input/folders4/one/two/yuidoc.json
+92 silly gunzTarPerm extractEntry tests/input/charts/NumericAxis.js
+93 silly gunzTarPerm extractEntry tests/input/charts/LeftAxisLayout.js
+94 silly gunzTarPerm extractEntry tests/input/charts/ChartBase.js
+95 silly gunzTarPerm extractEntry tests/input/charts/CurveUtil.js
+96 silly gunzTarPerm extractEntry tests/input/charts/StackedAreaSeries.js
+97 silly gunzTarPerm extractEntry tests/input/charts/LineSeries.js
+98 silly gunzTarPerm extractEntry tests/input/charts/Graph.js
+99 silly gunzTarPerm extractEntry tests/input/charts/StackedMarkerSeries.js
+100 silly gunzTarPerm extractEntry tests/input/charts/DiamondGroup.js
+101 silly gunzTarPerm extractEntry tests/input/charts/EllipseGroup.js
+102 silly gunzTarPerm extractEntry tests/input/charts/TimeAxis.js
+103 silly gunzTarPerm extractEntry tests/input/charts/StackingUtil.js
+104 silly gunzTarPerm extractEntry tests/input/charts/MarkerSeries.js
+105 silly gunzTarPerm extractEntry tests/input/charts/StackedComboSplineSeries.js
+106 silly gunzTarPerm extractEntry tests/input/charts/Axis.js
+107 silly gunzTarPerm extractEntry tests/input/charts/StackedColumnSeries.js
+108 silly gunzTarPerm extractEntry tests/input/charts/Histogram.js
+109 silly gunzTarPerm extractEntry tests/input/charts/CartesianChartLegend.js
+110 silly gunzTarPerm extractEntry tests/input/charts/AreaSeries.js
+111 silly gunzTarPerm extractEntry tests/input/charts/StackedComboSeries.js
+112 silly gunzTarPerm extractEntry tests/input/charts/Gridlines.js
+113 silly gunzTarPerm extractEntry tests/input/charts/PieChart.js
+114 silly gunzTarPerm extractEntry tests/input/charts/CircleGroup.js
+115 silly gunzTarPerm extractEntry tests/input/charts/ShapeGroup.js
+116 silly gunzTarPerm extractEntry tests/input/charts/Lines.js
+117 silly gunzTarPerm extractEntry tests/input/charts/StackedLineSeries.js
+118 silly gunzTarPerm extractEntry tests/input/charts/BarSeries.js
+119 silly gunzTarPerm extractEntry tests/input/charts/Renderer.js
+120 silly gunzTarPerm extractEntry tests/input/charts/CartesianSeries.js
+121 silly gunzTarPerm extractEntry tests/input/charts/TopAxisLayout.js
+122 silly gunzTarPerm extractEntry tests/input/charts/CartesianChart.js
+123 silly gunzTarPerm extractEntry tests/input/charts/StackedBarSeries.js
+124 silly gunzTarPerm extractEntry tests/input/charts/AreaSplineSeries.js
+125 silly gunzTarPerm extractEntry tests/input/charts/SplineSeries.js
+126 silly gunzTarPerm extractEntry tests/input/charts/StackedAreaSplineSeries.js
+127 silly gunzTarPerm extractEntry tests/input/charts/AxisType.js
+128 silly gunzTarPerm extractEntry tests/input/charts/StackedAxis.js
+129 silly gunzTarPerm extractEntry tests/input/charts/ChartLegend.js
+130 silly gunzTarPerm extractEntry tests/input/charts/ColumnSeries.js
+131 silly gunzTarPerm extractEntry tests/input/charts/Plots.js
+132 silly gunzTarPerm extractEntry tests/input/charts/RightAxisLayout.js
+133 silly gunzTarPerm extractEntry tests/input/charts/CategoryAxis.js
+134 silly gunzTarPerm extractEntry tests/input/charts/PieSeries.js
+135 silly gunzTarPerm extractEntry tests/input/charts/Chart.js
+136 silly gunzTarPerm extractEntry tests/input/charts/RectGroup.js
+137 silly gunzTarPerm extractEntry tests/input/charts/ComboSeries.js
+138 silly gunzTarPerm extractEntry tests/input/charts/StackedSplineSeries.js
+139 silly gunzTarPerm extractEntry tests/input/charts/Fills.js
+140 silly gunzTarPerm extractEntry tests/input/charts/PieChartLegend.js
+141 silly gunzTarPerm extractEntry tests/input/charts/BottomAxisLayout.js
+142 silly gunzTarPerm extractEntry tests/input/charts/ComboSplineSeries.js
+143 silly gunzTarPerm extractEntry tests/input/test2/namespace.js
+144 silly gunzTarPerm extractEntry tests/input/test2/slashes.js
+145 silly gunzTarPerm extractEntry tests/input/test2/oop/oop.js
+146 silly gunzTarPerm extractEntry tests/input/test2/dump/dump.js
+147 silly gunzTarPerm extractEntry tests/out/data.json
+148 silly gunzTarPerm extractEntry tests/lib/davglass.js
+149 silly gunzTarPerm extractEntry Makefile
+150 silly gunzTarPerm extractEntry lib/project.js
+151 silly gunzTarPerm extractEntry lib/docview.js
+152 silly gunzTarPerm extractEntry lib/index.js
+153 silly gunzTarPerm extractEntry lib/utils.js
+154 silly gunzTarPerm extractEntry lib/docparser.js
+155 silly gunzTarPerm extractEntry lib/builder.js
+156 silly gunzTarPerm extractEntry lib/options.js
+157 silly gunzTarPerm extractEntry lib/yuidoc.js
+158 silly gunzTarPerm extractEntry lib/cli.js
+159 silly gunzTarPerm extractEntry lib/server.js
+160 silly gunzTarPerm extractEntry lib/help.js
+161 silly gunzTarPerm extractEntry lib/files.js
+162 silly gunzTarPerm extractEntry .travis.yml
+163 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/prettify-min.js
+164 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/CHANGES.html
+165 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/prettify-min.css
+166 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/COPYING
+167 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/README.html
+168 silly gunzTarPerm extractEntry themes/default/assets/css/external-small.png
+169 silly gunzTarPerm extractEntry themes/default/assets/css/logo.png
+170 silly gunzTarPerm extractEntry themes/default/assets/css/main.css
+171 silly gunzTarPerm extractEntry themes/default/assets/img/spinner.gif
+172 silly gunzTarPerm extractEntry themes/default/assets/js/api-list.js
+173 silly gunzTarPerm extractEntry themes/default/assets/js/api-filter.js
+174 silly gunzTarPerm extractEntry themes/default/assets/js/apidocs.js
+175 silly gunzTarPerm extractEntry themes/default/assets/js/api-search.js
+176 silly gunzTarPerm extractEntry themes/default/assets/js/yui-prettify.js
+177 silly gunzTarPerm extractEntry themes/default/assets/index.html
+178 silly gunzTarPerm extractEntry themes/default/assets/favicon.png
+179 silly gunzTarPerm extractEntry themes/default/layouts/xhr.handlebars
+180 silly gunzTarPerm extractEntry themes/default/layouts/main.handlebars
+181 silly gunzTarPerm extractEntry themes/default/partials/method.handlebars
+182 silly gunzTarPerm extractEntry themes/default/partials/sidebar.handlebars
+183 silly gunzTarPerm extractEntry themes/default/partials/options.handlebars
+184 silly gunzTarPerm extractEntry themes/default/partials/index.handlebars
+185 silly gunzTarPerm extractEntry themes/default/partials/attrs.handlebars
+186 silly gunzTarPerm extractEntry themes/default/partials/events.handlebars
+187 silly gunzTarPerm extractEntry themes/default/partials/module.handlebars
+188 silly gunzTarPerm extractEntry themes/default/partials/props.handlebars
+189 silly gunzTarPerm extractEntry themes/default/partials/files.handlebars
+190 silly gunzTarPerm extractEntry themes/default/partials/classes.handlebars
+191 silly gunzTarPerm extractEntry themes/default/theme.json
+192 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/prettify-min.js
+193 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/CHANGES.html
+194 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/prettify-min.css
+195 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/COPYING
+196 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/README.html
+197 silly gunzTarPerm extractEntry themes/simple/assets/css/external-small.png
+198 silly gunzTarPerm extractEntry themes/simple/assets/css/logo.png
+199 silly gunzTarPerm extractEntry themes/simple/assets/css/main.css
+200 silly gunzTarPerm extractEntry themes/simple/assets/js/tabs.js
+201 silly gunzTarPerm extractEntry themes/simple/assets/js/yui-prettify.js
+202 silly gunzTarPerm extractEntry themes/simple/layouts/main.handlebars
+203 silly gunzTarPerm extractEntry themes/simple/partials/method.handlebars
+204 silly gunzTarPerm extractEntry themes/simple/partials/sidebar.handlebars
+205 silly gunzTarPerm extractEntry themes/simple/partials/index.handlebars
+206 silly gunzTarPerm extractEntry themes/simple/partials/attrs.handlebars
+207 silly gunzTarPerm extractEntry themes/simple/partials/events.handlebars
+208 silly gunzTarPerm extractEntry themes/simple/partials/module.handlebars
+209 silly gunzTarPerm extractEntry themes/simple/partials/props.handlebars
+210 silly gunzTarPerm extractEntry themes/simple/partials/files.handlebars
+211 silly gunzTarPerm extractEntry themes/simple/partials/classes.handlebars
+212 silly gunzTarPerm extractEntry themes/simple/theme.json
+213 silly gunzTarPerm extractEntry docs/syntax/component.json
+214 silly gunzTarPerm extractEntry docs/syntax/index.mustache
+215 silly gunzTarPerm extractEntry docs/args/component.json
+216 silly gunzTarPerm extractEntry docs/args/partials/help.mustache
+217 silly gunzTarPerm extractEntry docs/args/index.mustache
+218 silly gunzTarPerm extractEntry docs/themes/component.json
+219 silly gunzTarPerm extractEntry docs/themes/index.mustache
+220 silly gunzTarPerm extractEntry coverage/lcov-report/prettify.js
+221 silly gunzTarPerm extractEntry coverage/lcov-report/lib/docparser.js.html
+222 silly gunzTarPerm extractEntry coverage/lcov-report/lib/files.js.html
+223 silly gunzTarPerm extractEntry coverage/lcov-report/lib/utils.js.html
+224 silly gunzTarPerm extractEntry coverage/lcov-report/lib/builder.js.html
+225 silly gunzTarPerm extractEntry coverage/lcov-report/lib/server.js.html
+226 silly gunzTarPerm extractEntry coverage/lcov-report/lib/index.js.html
+227 silly gunzTarPerm extractEntry coverage/lcov-report/lib/project.js.html
+228 silly gunzTarPerm extractEntry coverage/lcov-report/lib/options.js.html
+229 silly gunzTarPerm extractEntry coverage/lcov-report/lib/index.html
+230 silly gunzTarPerm extractEntry coverage/lcov-report/lib/help.js.html
+231 silly gunzTarPerm extractEntry coverage/lcov-report/lib/docview.js.html
+232 silly gunzTarPerm extractEntry coverage/lcov-report/lib/yuidoc.js.html
+233 silly gunzTarPerm extractEntry coverage/lcov-report/prettify.css
+234 silly gunzTarPerm extractEntry coverage/lcov-report/index.html
+235 silly gunzTarPerm extractEntry coverage/test-coverage.json
+236 silly gunzTarPerm extractEntry coverage/coverage.json
+237 silly gunzTarPerm extractEntry coverage/lcov.info
+238 silly gunzTarPerm extractEntry scripts/report.js
+239 silly gunzTarPerm extractEntry scripts/versions.js
+240 silly gunzTarPerm extractEntry scripts/prep.sh
+241 silly gunzTarPerm extractEntry scripts/test.sh
+242 silly gunzTarPerm extractEntry scripts/docs.sh
+243 silly gunzTarPerm extractEntry scripts/help.sh
+244 silly gunzTarPerm extractEntry DEVELOPMENT.md
+245 silly gunzTarPerm extractEntry output/syntax/index.html
+246 silly gunzTarPerm extractEntry output/args/index.html
+247 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify-min.js
+248 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify.js
+249 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify.css
+250 silly gunzTarPerm extractEntry output/assets/vendor/prettify/CHANGES.html
+251 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify-min.css
+252 silly gunzTarPerm extractEntry output/assets/vendor/prettify/COPYING
+253 silly gunzTarPerm extractEntry output/assets/vendor/prettify/README.html
+254 silly gunzTarPerm extractEntry output/assets/css/main.css
+255 silly gunzTarPerm extractEntry output/assets/favicon.png
+256 silly gunzTarPerm extractEntry output/api/api.js
+257 silly gunzTarPerm extractEntry output/api/data.json
+258 silly gunzTarPerm extractEntry output/api/files/lib_builder.js.html
+259 silly gunzTarPerm extractEntry output/api/files/lib_options.js.html
+260 silly gunzTarPerm extractEntry output/api/files/lib_cli.js.html
+261 silly gunzTarPerm extractEntry output/api/files/lib_docview.js.html
+262 silly gunzTarPerm extractEntry output/api/files/lib_files.js.html
+263 silly gunzTarPerm extractEntry output/api/files/lib_docparser.js.html
+264 silly gunzTarPerm extractEntry output/api/files/lib_index.js.html
+265 silly gunzTarPerm extractEntry output/api/files/lib_help.js.html
+266 silly gunzTarPerm extractEntry output/api/files/lib_yuidoc.js.html
+267 silly gunzTarPerm extractEntry output/api/files/lib_server.js.html
+268 silly gunzTarPerm extractEntry output/api/files/lib_utils.js.html
+269 silly gunzTarPerm extractEntry output/api/files/index.html
+270 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/prettify-min.js
+271 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/CHANGES.html
+272 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/prettify-min.css
+273 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/COPYING
+274 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/README.html
+275 silly gunzTarPerm extractEntry output/api/assets/css/external-small.png
+276 silly gunzTarPerm extractEntry output/api/assets/css/logo.png
+277 silly gunzTarPerm extractEntry output/api/assets/css/main.css
+278 silly gunzTarPerm extractEntry output/api/assets/img/spinner.gif
+279 silly gunzTarPerm extractEntry output/api/assets/js/api-list.js
+280 silly gunzTarPerm extractEntry output/api/assets/js/api-filter.js
+281 silly gunzTarPerm extractEntry output/api/assets/js/apidocs.js
+282 silly gunzTarPerm extractEntry output/api/assets/js/api-search.js
+283 silly gunzTarPerm extractEntry output/api/assets/js/yui-prettify.js
+284 silly gunzTarPerm extractEntry output/api/assets/index.html
+285 silly gunzTarPerm extractEntry output/api/assets/favicon.png
+286 silly gunzTarPerm extractEntry output/api/classes/DocParser.html
+287 silly gunzTarPerm extractEntry output/api/classes/Main.html
+288 silly gunzTarPerm extractEntry output/api/classes/CLI.html
+289 silly gunzTarPerm extractEntry output/api/classes/Files.html
+290 silly gunzTarPerm extractEntry output/api/classes/Help.html
+291 silly gunzTarPerm extractEntry output/api/classes/Utils.html
+292 silly gunzTarPerm extractEntry output/api/classes/Options.html
+293 silly gunzTarPerm extractEntry output/api/classes/Server.html
+294 silly gunzTarPerm extractEntry output/api/classes/DocView.html
+295 silly gunzTarPerm extractEntry output/api/classes/YUIDoc.html
+296 silly gunzTarPerm extractEntry output/api/classes/DocBuilder.html
+297 silly gunzTarPerm extractEntry output/api/classes/index.html
+298 silly gunzTarPerm extractEntry output/api/modules/yuidoc.html
+299 silly gunzTarPerm extractEntry output/api/modules/index.html
+300 silly gunzTarPerm extractEntry output/api/index.html
+301 silly gunzTarPerm extractEntry output/themes/index.html
+302 silly gunzTarPerm extractEntry output/index.html
+303 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify-min.js
+304 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify.js
+305 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify.css
+306 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/CHANGES.html
+307 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify-min.css
+308 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/COPYING
+309 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/README.html
+310 silly gunzTarPerm extractEntry conf/docs/assets/css/main.css
+311 silly gunzTarPerm extractEntry conf/docs/assets/favicon.png
+312 silly gunzTarPerm extractEntry conf/docs/layouts/main.mustache
+313 silly gunzTarPerm extractEntry conf/docs/project.json
+314 silly gunzTarPerm extractEntry conf/docs/index.mustache
+315 verbose read json /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package/package.json
+316 silly lockFile 342712ea-50814-0-6198695222847164-package /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+317 silly lockFile 342712ea-50814-0-6198695222847164-package /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+318 silly lockFile e76d932b-50814-0-6198695222847164-tmp-tgz /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz
+319 silly lockFile e76d932b-50814-0-6198695222847164-tmp-tgz /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/tmp.tgz
+320 verbose from cache /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package/package.json
+321 verbose tar pack [ '/u/rtoris/.npm/yuidocjs/0.3.40/package.tgz',
+321 verbose tar pack   '/u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package' ]
+322 verbose tarball /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+323 verbose folder /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+324 silly lockFile 342712ea-50814-0-6198695222847164-package /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+325 verbose lock /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package /u/rtoris/.npm/342712ea-50814-0-6198695222847164-package.lock
+326 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+327 verbose lock /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz /u/rtoris/.npm/ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz.lock
+328 silly lockFile 342712ea-50814-0-6198695222847164-package /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+329 silly lockFile 342712ea-50814-0-6198695222847164-package /u/rtoris/tmp/npm-13120/1364928450814-0.6198695222847164/package
+330 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+331 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+332 silly lockFile d9dd4fee-oris-npm-yuidocjs-0-3-40-package /u/rtoris/.npm/yuidocjs/0.3.40/package
+333 verbose lock /u/rtoris/.npm/yuidocjs/0.3.40/package /u/rtoris/.npm/d9dd4fee-oris-npm-yuidocjs-0-3-40-package.lock
+334 silly lockFile d9dd4fee-oris-npm-yuidocjs-0-3-40-package /u/rtoris/.npm/yuidocjs/0.3.40/package
+335 silly lockFile d9dd4fee-oris-npm-yuidocjs-0-3-40-package /u/rtoris/.npm/yuidocjs/0.3.40/package
+336 verbose tar unpack /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+337 silly lockFile d9dd4fee-oris-npm-yuidocjs-0-3-40-package /u/rtoris/.npm/yuidocjs/0.3.40/package
+338 verbose lock /u/rtoris/.npm/yuidocjs/0.3.40/package /u/rtoris/.npm/d9dd4fee-oris-npm-yuidocjs-0-3-40-package.lock
+339 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+340 verbose lock /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz /u/rtoris/.npm/ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz.lock
+341 silly gunzTarPerm modes [ '755', '644' ]
+342 silly gunzTarPerm extractEntry package.json
+343 silly gunzTarPerm extractEntry .npmignore
+344 silly gunzTarPerm extractEntry README.md
+345 silly gunzTarPerm extractEntry LICENSE
+346 silly gunzTarPerm extractEntry tests/parser_coffee.js
+347 silly gunzTarPerm extractEntry tests/parser.js
+348 silly gunzTarPerm extractEntry tests/builder.js
+349 silly gunzTarPerm extractEntry tests/utils.js
+350 silly gunzTarPerm extractEntry tests/options.js
+351 silly gunzTarPerm extractEntry tests/out/data.json
+352 silly gunzTarPerm extractEntry tests/input/folders1/yuidoc.json
+353 silly gunzTarPerm extractEntry tests/input/folders1/one/two/yuidoc.json
+354 silly gunzTarPerm extractEntry tests/input/charts/Histogram.js
+355 silly gunzTarPerm extractEntry tests/input/charts/Gridlines.js
+356 silly gunzTarPerm extractEntry tests/input/charts/StackedBarSeries.js
+357 silly gunzTarPerm extractEntry tests/input/charts/BarSeries.js
+358 silly gunzTarPerm extractEntry tests/input/charts/PieSeries.js
+359 silly gunzTarPerm extractEntry tests/input/charts/Plots.js
+360 silly gunzTarPerm extractEntry tests/input/charts/StackedSplineSeries.js
+361 silly gunzTarPerm extractEntry tests/input/charts/DiamondGroup.js
+362 silly gunzTarPerm extractEntry tests/input/charts/ChartBase.js
+363 silly gunzTarPerm extractEntry tests/input/charts/RightAxisLayout.js
+364 silly gunzTarPerm extractEntry tests/input/charts/CartesianSeries.js
+365 silly gunzTarPerm extractEntry tests/input/charts/StackedAxis.js
+366 silly gunzTarPerm extractEntry tests/input/charts/NumericAxis.js
+367 silly gunzTarPerm extractEntry tests/input/charts/CircleGroup.js
+368 silly gunzTarPerm extractEntry tests/input/charts/ChartLegend.js
+369 silly gunzTarPerm extractEntry tests/input/charts/StackedComboSplineSeries.js
+370 silly gunzTarPerm extractEntry tests/input/charts/Chart.js
+371 silly gunzTarPerm extractEntry tests/input/charts/StackingUtil.js
+372 silly gunzTarPerm extractEntry tests/input/charts/CategoryAxis.js
+373 silly gunzTarPerm extractEntry tests/input/charts/ShapeGroup.js
+374 silly gunzTarPerm extractEntry tests/input/charts/SplineSeries.js
+375 silly gunzTarPerm extractEntry tests/input/charts/Axis.js
+376 silly gunzTarPerm extractEntry tests/input/charts/StackedMarkerSeries.js
+377 silly gunzTarPerm extractEntry tests/input/charts/CurveUtil.js
+378 silly gunzTarPerm extractEntry tests/input/charts/CartesianChart.js
+379 silly gunzTarPerm extractEntry tests/input/charts/LineSeries.js
+380 silly gunzTarPerm extractEntry tests/input/charts/EllipseGroup.js
+381 silly gunzTarPerm extractEntry tests/input/charts/ComboSeries.js
+382 silly gunzTarPerm extractEntry tests/input/charts/StackedAreaSeries.js
+383 silly gunzTarPerm extractEntry tests/input/charts/Graph.js
+384 silly gunzTarPerm extractEntry tests/input/charts/TimeAxis.js
+385 silly gunzTarPerm extractEntry tests/input/charts/StackedLineSeries.js
+386 silly gunzTarPerm extractEntry tests/input/charts/AxisType.js
+387 silly gunzTarPerm extractEntry tests/input/charts/ComboSplineSeries.js
+388 silly gunzTarPerm extractEntry tests/input/charts/StackedColumnSeries.js
+389 silly gunzTarPerm extractEntry tests/input/charts/CartesianChartLegend.js
+390 silly gunzTarPerm extractEntry tests/input/charts/RectGroup.js
+391 silly gunzTarPerm extractEntry tests/input/charts/ColumnSeries.js
+392 silly gunzTarPerm extractEntry tests/input/charts/PieChartLegend.js
+393 silly gunzTarPerm extractEntry tests/input/charts/TopAxisLayout.js
+394 silly gunzTarPerm extractEntry tests/input/charts/AreaSeries.js
+395 silly gunzTarPerm extractEntry tests/input/charts/Fills.js
+396 silly gunzTarPerm extractEntry tests/input/charts/BottomAxisLayout.js
+397 silly gunzTarPerm extractEntry tests/input/charts/Lines.js
+398 silly gunzTarPerm extractEntry tests/input/charts/Renderer.js
+399 silly gunzTarPerm extractEntry tests/input/charts/MarkerSeries.js
+400 silly gunzTarPerm extractEntry tests/input/charts/PieChart.js
+401 silly gunzTarPerm extractEntry tests/input/charts/StackedAreaSplineSeries.js
+402 silly gunzTarPerm extractEntry tests/input/charts/LeftAxisLayout.js
+403 silly gunzTarPerm extractEntry tests/input/charts/StackedComboSeries.js
+404 silly gunzTarPerm extractEntry tests/input/charts/AreaSplineSeries.js
+405 silly gunzTarPerm extractEntry tests/input/folders4/one/two/package.json
+406 silly gunzTarPerm extractEntry tests/input/folders4/one/two/yuidoc.json
+407 silly gunzTarPerm extractEntry tests/input/folders4/one/yuidoc.json
+408 silly gunzTarPerm extractEntry tests/input/test/anim.js
+409 silly gunzTarPerm extractEntry tests/input/test/test.js
+410 silly gunzTarPerm extractEntry tests/input/namespace/ns.js
+411 silly gunzTarPerm extractEntry tests/input/folders5/two/package.json
+412 silly gunzTarPerm extractEntry tests/input/folders5/two/yuidoc.json
+413 silly gunzTarPerm extractEntry tests/input/folders5/one/three/yuidoc.json
+414 silly gunzTarPerm extractEntry tests/input/test2/slashes.js
+415 silly gunzTarPerm extractEntry tests/input/test2/namespace.js
+416 silly gunzTarPerm extractEntry tests/input/test2/dump/dump.js
+417 silly gunzTarPerm extractEntry tests/input/test2/oop/oop.js
+418 silly gunzTarPerm extractEntry tests/input/folders3/package.json
+419 silly gunzTarPerm extractEntry tests/input/folders3/yuidoc.json
+420 silly gunzTarPerm extractEntry tests/input/folders3/one/package.json
+421 silly gunzTarPerm extractEntry tests/input/folders3/one/two/yuidoc.json
+422 silly gunzTarPerm extractEntry tests/input/coffee/test.coffee
+423 silly gunzTarPerm extractEntry tests/input/inherit/examplemodule.js
+424 silly gunzTarPerm extractEntry tests/input/folders2/package.json
+425 silly gunzTarPerm extractEntry tests/input/folders2/one/two/yuidoc.json
+426 silly gunzTarPerm extractEntry tests/input/json/parse.js
+427 silly gunzTarPerm extractEntry tests/input/json/stringify.js
+428 silly gunzTarPerm extractEntry tests/lib/davglass.js
+429 silly gunzTarPerm extractEntry output/syntax/index.html
+430 silly gunzTarPerm extractEntry output/api/api.js
+431 silly gunzTarPerm extractEntry output/api/files/lib_builder.js.html
+432 silly gunzTarPerm extractEntry output/api/files/lib_cli.js.html
+433 silly gunzTarPerm extractEntry output/api/files/lib_yuidoc.js.html
+434 silly gunzTarPerm extractEntry output/api/files/lib_docparser.js.html
+435 silly gunzTarPerm extractEntry output/api/files/lib_server.js.html
+436 silly gunzTarPerm extractEntry output/api/files/lib_index.js.html
+437 silly gunzTarPerm extractEntry output/api/files/lib_utils.js.html
+438 silly gunzTarPerm extractEntry output/api/files/index.html
+439 silly gunzTarPerm extractEntry output/api/files/lib_help.js.html
+440 silly gunzTarPerm extractEntry output/api/files/lib_files.js.html
+441 silly gunzTarPerm extractEntry output/api/files/lib_docview.js.html
+442 silly gunzTarPerm extractEntry output/api/files/lib_options.js.html
+443 silly gunzTarPerm extractEntry output/api/modules/index.html
+444 silly gunzTarPerm extractEntry output/api/modules/yuidoc.html
+445 silly gunzTarPerm extractEntry output/api/classes/index.html
+446 silly gunzTarPerm extractEntry output/api/classes/Utils.html
+447 silly gunzTarPerm extractEntry output/api/classes/Help.html
+448 silly gunzTarPerm extractEntry output/api/classes/Files.html
+449 silly gunzTarPerm extractEntry output/api/classes/Server.html
+450 silly gunzTarPerm extractEntry output/api/classes/CLI.html
+451 silly gunzTarPerm extractEntry output/api/classes/DocView.html
+452 silly gunzTarPerm extractEntry output/api/classes/Options.html
+453 silly gunzTarPerm extractEntry output/api/classes/YUIDoc.html
+454 silly gunzTarPerm extractEntry output/api/classes/Main.html
+455 silly gunzTarPerm extractEntry output/api/classes/DocBuilder.html
+456 silly gunzTarPerm extractEntry output/api/classes/DocParser.html
+457 silly gunzTarPerm extractEntry output/api/index.html
+458 silly gunzTarPerm extractEntry output/api/data.json
+459 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/prettify-min.js
+460 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/prettify-min.css
+461 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/COPYING
+462 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/CHANGES.html
+463 silly gunzTarPerm extractEntry output/api/assets/vendor/prettify/README.html
+464 silly gunzTarPerm extractEntry output/api/assets/favicon.png
+465 silly gunzTarPerm extractEntry output/api/assets/css/main.css
+466 silly gunzTarPerm extractEntry output/api/assets/css/logo.png
+467 silly gunzTarPerm extractEntry output/api/assets/css/external-small.png
+468 silly gunzTarPerm extractEntry output/api/assets/img/spinner.gif
+469 silly gunzTarPerm extractEntry output/api/assets/index.html
+470 silly gunzTarPerm extractEntry output/api/assets/js/yui-prettify.js
+471 silly gunzTarPerm extractEntry output/api/assets/js/api-search.js
+472 silly gunzTarPerm extractEntry output/api/assets/js/api-list.js
+473 silly gunzTarPerm extractEntry output/api/assets/js/api-filter.js
+474 silly gunzTarPerm extractEntry output/api/assets/js/apidocs.js
+475 silly gunzTarPerm extractEntry output/args/index.html
+476 silly gunzTarPerm extractEntry output/themes/index.html
+477 silly gunzTarPerm extractEntry output/index.html
+478 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify.js
+479 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify-min.js
+480 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify.css
+481 silly gunzTarPerm extractEntry output/assets/vendor/prettify/prettify-min.css
+482 silly gunzTarPerm extractEntry output/assets/vendor/prettify/COPYING
+483 silly gunzTarPerm extractEntry output/assets/vendor/prettify/CHANGES.html
+484 silly gunzTarPerm extractEntry output/assets/vendor/prettify/README.html
+485 silly gunzTarPerm extractEntry output/assets/favicon.png
+486 silly gunzTarPerm extractEntry output/assets/css/main.css
+487 silly gunzTarPerm extractEntry conf/docs/index.mustache
+488 silly gunzTarPerm extractEntry conf/docs/project.json
+489 silly gunzTarPerm extractEntry conf/docs/layouts/main.mustache
+490 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify.js
+491 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify-min.js
+492 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify.css
+493 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/prettify-min.css
+494 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/COPYING
+495 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/CHANGES.html
+496 silly gunzTarPerm extractEntry conf/docs/assets/vendor/prettify/README.html
+497 silly gunzTarPerm extractEntry conf/docs/assets/favicon.png
+498 silly gunzTarPerm extractEntry conf/docs/assets/css/main.css
+499 silly gunzTarPerm extractEntry coverage/lcov-report/prettify.js
+500 silly gunzTarPerm extractEntry coverage/lcov-report/prettify.css
+501 silly gunzTarPerm extractEntry coverage/lcov-report/index.html
+502 silly gunzTarPerm extractEntry coverage/lcov-report/lib/help.js.html
+503 silly gunzTarPerm extractEntry coverage/lcov-report/lib/options.js.html
+504 silly gunzTarPerm extractEntry coverage/lcov-report/lib/utils.js.html
+505 silly gunzTarPerm extractEntry coverage/lcov-report/lib/server.js.html
+506 silly gunzTarPerm extractEntry coverage/lcov-report/lib/index.js.html
+507 silly gunzTarPerm extractEntry coverage/lcov-report/lib/index.html
+508 silly gunzTarPerm extractEntry coverage/lcov-report/lib/yuidoc.js.html
+509 silly gunzTarPerm extractEntry coverage/lcov-report/lib/project.js.html
+510 silly gunzTarPerm extractEntry coverage/lcov-report/lib/docparser.js.html
+511 silly gunzTarPerm extractEntry coverage/lcov-report/lib/docview.js.html
+512 silly gunzTarPerm extractEntry coverage/lcov-report/lib/files.js.html
+513 silly gunzTarPerm extractEntry coverage/lcov-report/lib/builder.js.html
+514 silly gunzTarPerm extractEntry coverage/coverage.json
+515 silly gunzTarPerm extractEntry coverage/test-coverage.json
+516 silly gunzTarPerm extractEntry coverage/lcov.info
+517 silly gunzTarPerm extractEntry scripts/versions.js
+518 silly gunzTarPerm extractEntry scripts/report.js
+519 silly gunzTarPerm extractEntry scripts/prep.sh
+520 silly gunzTarPerm extractEntry scripts/help.sh
+521 silly gunzTarPerm extractEntry scripts/test.sh
+522 silly gunzTarPerm extractEntry scripts/docs.sh
+523 silly gunzTarPerm extractEntry themes/simple/partials/props.handlebars
+524 silly gunzTarPerm extractEntry themes/simple/partials/files.handlebars
+525 silly gunzTarPerm extractEntry themes/simple/partials/attrs.handlebars
+526 silly gunzTarPerm extractEntry themes/simple/partials/sidebar.handlebars
+527 silly gunzTarPerm extractEntry themes/simple/partials/module.handlebars
+528 silly gunzTarPerm extractEntry themes/simple/partials/index.handlebars
+529 silly gunzTarPerm extractEntry themes/simple/partials/method.handlebars
+530 silly gunzTarPerm extractEntry themes/simple/partials/events.handlebars
+531 silly gunzTarPerm extractEntry themes/simple/partials/classes.handlebars
+532 silly gunzTarPerm extractEntry themes/simple/layouts/main.handlebars
+533 silly gunzTarPerm extractEntry themes/simple/theme.json
+534 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/prettify-min.js
+535 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/prettify-min.css
+536 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/COPYING
+537 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/CHANGES.html
+538 silly gunzTarPerm extractEntry themes/simple/assets/vendor/prettify/README.html
+539 silly gunzTarPerm extractEntry themes/simple/assets/css/main.css
+540 silly gunzTarPerm extractEntry themes/simple/assets/css/logo.png
+541 silly gunzTarPerm extractEntry themes/simple/assets/css/external-small.png
+542 silly gunzTarPerm extractEntry themes/simple/assets/js/yui-prettify.js
+543 silly gunzTarPerm extractEntry themes/simple/assets/js/tabs.js
+544 silly gunzTarPerm extractEntry themes/default/partials/props.handlebars
+545 silly gunzTarPerm extractEntry themes/default/partials/files.handlebars
+546 silly gunzTarPerm extractEntry themes/default/partials/attrs.handlebars
+547 silly gunzTarPerm extractEntry themes/default/partials/sidebar.handlebars
+548 silly gunzTarPerm extractEntry themes/default/partials/module.handlebars
+549 silly gunzTarPerm extractEntry themes/default/partials/index.handlebars
+550 silly gunzTarPerm extractEntry themes/default/partials/method.handlebars
+551 silly gunzTarPerm extractEntry themes/default/partials/options.handlebars
+552 silly gunzTarPerm extractEntry themes/default/partials/events.handlebars
+553 silly gunzTarPerm extractEntry themes/default/partials/classes.handlebars
+554 silly gunzTarPerm extractEntry themes/default/layouts/xhr.handlebars
+555 silly gunzTarPerm extractEntry themes/default/layouts/main.handlebars
+556 silly gunzTarPerm extractEntry themes/default/theme.json
+557 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/prettify-min.js
+558 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/prettify-min.css
+559 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/COPYING
+560 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/CHANGES.html
+561 silly gunzTarPerm extractEntry themes/default/assets/vendor/prettify/README.html
+562 silly gunzTarPerm extractEntry themes/default/assets/favicon.png
+563 silly gunzTarPerm extractEntry themes/default/assets/css/main.css
+564 silly gunzTarPerm extractEntry themes/default/assets/css/logo.png
+565 silly gunzTarPerm extractEntry themes/default/assets/css/external-small.png
+566 silly gunzTarPerm extractEntry themes/default/assets/img/spinner.gif
+567 silly gunzTarPerm extractEntry themes/default/assets/index.html
+568 silly gunzTarPerm extractEntry themes/default/assets/js/yui-prettify.js
+569 silly gunzTarPerm extractEntry themes/default/assets/js/api-search.js
+570 silly gunzTarPerm extractEntry themes/default/assets/js/api-list.js
+571 silly gunzTarPerm extractEntry themes/default/assets/js/api-filter.js
+572 silly gunzTarPerm extractEntry themes/default/assets/js/apidocs.js
+573 silly gunzTarPerm extractEntry lib/index.js
+574 silly gunzTarPerm extractEntry lib/docview.js
+575 silly gunzTarPerm extractEntry lib/builder.js
+576 silly gunzTarPerm extractEntry lib/docparser.js
+577 silly gunzTarPerm extractEntry lib/help.js
+578 silly gunzTarPerm extractEntry lib/project.js
+579 silly gunzTarPerm extractEntry lib/yuidoc.js
+580 silly gunzTarPerm extractEntry lib/options.js
+581 silly gunzTarPerm extractEntry lib/cli.js
+582 silly gunzTarPerm extractEntry lib/server.js
+583 silly gunzTarPerm extractEntry lib/files.js
+584 silly gunzTarPerm extractEntry lib/utils.js
+585 silly gunzTarPerm extractEntry Makefile
+586 silly gunzTarPerm extractEntry .travis.yml
+587 silly gunzTarPerm extractEntry DEVELOPMENT.md
+588 silly gunzTarPerm extractEntry docs/syntax/index.mustache
+589 silly gunzTarPerm extractEntry docs/syntax/component.json
+590 silly gunzTarPerm extractEntry docs/args/partials/help.mustache
+591 silly gunzTarPerm extractEntry docs/args/index.mustache
+592 silly gunzTarPerm extractEntry docs/args/component.json
+593 silly gunzTarPerm extractEntry docs/themes/index.mustache
+594 silly gunzTarPerm extractEntry docs/themes/component.json
+595 verbose read json /u/rtoris/.npm/yuidocjs/0.3.40/package/package.json
+596 silly lockFile d9dd4fee-oris-npm-yuidocjs-0-3-40-package /u/rtoris/.npm/yuidocjs/0.3.40/package
+597 silly lockFile d9dd4fee-oris-npm-yuidocjs-0-3-40-package /u/rtoris/.npm/yuidocjs/0.3.40/package
+598 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+599 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+600 silly shasum updated bytes 40960
+601 silly shasum updated bytes 40960
+602 silly shasum updated bytes 40960
+603 silly shasum updated bytes 40960
+604 silly shasum updated bytes 40960
+605 silly shasum updated bytes 40960
+606 silly shasum updated bytes 40960
+607 silly shasum updated bytes 40960
+608 silly shasum updated bytes 40960
+609 silly shasum updated bytes 40960
+610 silly shasum updated bytes 40960
+611 silly shasum updated bytes 40960
+612 silly shasum updated bytes 40960
+613 silly shasum updated bytes 40960
+614 silly shasum updated bytes 40960
+615 silly shasum updated bytes 40960
+616 silly shasum updated bytes 8048
+617 info shasum a1665f46bea9efd836725cb29e70eb69948c5909
+617 info shasum /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+618 verbose from cache /u/rtoris/.npm/yuidocjs/0.3.40/package/package.json
+619 verbose chmod /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz 644
+620 verbose chown /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz [ 1386, 9000 ]
+621 silly lockFile 2d5f8882-org-yuidocjs-yuidocjs-0-3-40-tgz https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz
+622 silly lockFile 2d5f8882-org-yuidocjs-yuidocjs-0-3-40-tgz https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz
+623 silly lockFile 4faee754-yuidocjs-0-3-40 yuidocjs@0.3.40
+624 silly lockFile 4faee754-yuidocjs-0-3-40 yuidocjs@0.3.40
+625 silly lockFile 21cb9463-yuidocjs yuidocjs@
+626 silly lockFile 21cb9463-yuidocjs yuidocjs@
+627 silly resolved [ { name: 'yuidocjs',
+627 silly resolved     version: '0.3.40',
+627 silly resolved     description: 'YUIDoc, YUI\'s JavaScript Documentation engine.',
+627 silly resolved     author: { name: 'Dav Glass', email: 'davglass@gmail.com' },
+627 silly resolved     bugs: { url: 'http://github.com/yui/yuidoc/issues' },
+627 silly resolved     contributors:
+627 silly resolved      [ [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object],
+627 silly resolved        [Object] ],
+627 silly resolved     engines: { node: '>=0.4.0' },
+627 silly resolved     keywords:
+627 silly resolved      [ 'yui',
+627 silly resolved        'jsdoc',
+627 silly resolved        'coffeescript',
+627 silly resolved        'api',
+627 silly resolved        'documentation',
+627 silly resolved        'javadoc',
+627 silly resolved        'docs',
+627 silly resolved        'apidocs' ],
+627 silly resolved     main: './lib/index',
+627 silly resolved     bin: { yuidoc: './lib/cli.js' },
+627 silly resolved     dependencies:
+627 silly resolved      { yui: '3.9.0pr1',
+627 silly resolved        rimraf: '~2.0.0',
+627 silly resolved        'node-markdown': '~0.1.0',
+627 silly resolved        minimatch: '~0.1.0',
+627 silly resolved        'graceful-fs': '>=1.1.1',
+627 silly resolved        express: '~2.5.0' },
+627 silly resolved     devDependencies:
+627 silly resolved      { ytestrunner: '~0.3.3',
+627 silly resolved        yuitest: '>=0.7.3',
+627 silly resolved        selleck: '~0.1',
+627 silly resolved        istanbul: '~0.1.27' },
+627 silly resolved     scripts: { test: 'istanbul cover --print=both --yui ytestrunner -- --include ./tests/options.js --include ./tests/builder.js --include ./tests/parser.js --include ./tests/parser_coffee.js' },
+627 silly resolved     preferGlobal: 'true',
+627 silly resolved     licenses: [ [Object] ],
+627 silly resolved     repository: { type: 'git', url: 'http://github.com/yui/yuidoc.git' },
+627 silly resolved     yuidoc:
+627 silly resolved      { name: 'YUIDoc',
+627 silly resolved        logo: 'http://yuilibrary.com/img/yui-logo.png',
+627 silly resolved        options: [Object] },
+627 silly resolved     readme: 'YUIDoc Doc parser\n=================\n\nYUIDoc is a [Node.js](http://nodejs.org/) application used at build time to \ngenerate API documentation for JavaScript code. YUIDoc is comment-driven and supports a wide \nrange of JavaScript coding styles. The output of YUI Doc is API documentation formatted as a \nset of HTML pages including information about methods, properties, custom events and \ninheritance for JavaScript objects. YUIDoc was orignally written for the YUI Project;\nit uses YUI JavaScript and CSS in the generated files and it supports common YUI \nconventions like Custom Events. That said, it can be used easily and productively on non-YUI code.\n\nCurrent Build Status\n--------------------\n\n[![Build Status](https://secure.travis-ci.org/yui/yuidoc.png?branch=master)](http://travis-ci.org/yui/yuidoc)\n\nInstallation\n------------\n\n    npm -g i yuidocjs\n\n\nDocumentation\n-------------\n\n   * [User Guides](http://yui.github.com/yuidoc/)\n   * [API Docs](http://yui.github.com/yuidoc/api/)\n   * [Support Mailing List](https://groups.google.com/forum/#!forum/yuidoc)\n\n\nReleased under the YUI BSD License\n----------------------------------\n\n    Copyright 2012 Yahoo! Inc.\n    All rights reserved.\n\n    Redistribution and use in source and binary forms, with or without\n    modification, are permitted provided that the following conditions are met:\n\n       * Redistributions of source code must retain the above copyright\n          notice, this list of conditions and the following disclaimer.\n       * Redistributions in binary form must reproduce the above copyright\n          notice, this list of conditions and the following disclaimer in the\n          documentation and/or other materials provided with the distribution.\n       * Neither the name of the Yahoo! Inc. nor the\n          names of its contributors may be used to endorse or promote products\n          derived from this software without specific prior written permission.\n\n    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND\n    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n    DISCLAIMED. IN NO EVENT SHALL YAHOO! INC. BE LIABLE FOR ANY\n    DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\n    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\n    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n',
+627 silly resolved     readmeFilename: 'README.md',
+627 silly resolved     _id: 'yuidocjs@0.3.40',
+627 silly resolved     dist: { shasum: 'a1665f46bea9efd836725cb29e70eb69948c5909' },
+627 silly resolved     _from: 'yuidocjs@',
+627 silly resolved     _resolved: 'https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.3.40.tgz' } ]
+628 info install yuidocjs@0.3.40 into /usr/lib
+629 info installOne yuidocjs@0.3.40
+630 verbose from cache /u/rtoris/.npm/yuidocjs/0.3.40/package/package.json
+631 info /usr/lib/node_modules/yuidocjs unbuild
+632 verbose read json /usr/lib/node_modules/yuidocjs/package.json
+633 verbose tar unpack /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+634 silly lockFile ab191135-usr-lib-node-modules-yuidocjs /usr/lib/node_modules/yuidocjs
+635 verbose lock /usr/lib/node_modules/yuidocjs /u/rtoris/.npm/ab191135-usr-lib-node-modules-yuidocjs.lock
+636 silly lockFile ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz
+637 verbose lock /u/rtoris/.npm/yuidocjs/0.3.40/package.tgz /u/rtoris/.npm/ec4b1d3c--npm-yuidocjs-0-3-40-package-tgz.lock
+638 silly gunzTarPerm modes [ '755', '644' ]
+639 error Error: EACCES, mkdir '/usr/lib/node_modules'
+639 error  { [Error: EACCES, mkdir '/usr/lib/node_modules']
+639 error   errno: 3,
+639 error   code: 'EACCES',
+639 error   path: '/usr/lib/node_modules',
+639 error   fstream_type: 'Directory',
+639 error   fstream_path: '/usr/lib/node_modules/yuidocjs',
+639 error   fstream_class: 'DirWriter',
+639 error   fstream_stack:
+639 error    [ '/usr/lib/nodejs/npm/node_modules/fstream/lib/writer.js:171:23',
+639 error      '/usr/lib/nodejs/npm/node_modules/mkdirp/index.js:37:53',
+639 error      'Object.oncomplete (fs.js:297:15)' ] }
+640 error Please try running this command again as root/Administrator.
+641 error System Linux 3.2.0-38-generic
+642 error command "nodejs" "/usr/bin/npm" "-g" "install" "yuidocjs"
+643 error cwd /wg/stor5/rtoris/Documents/WPI/RAIL/ROS/groovy/src/keyboardteleopjs/utils
+644 error node -v v0.8.22
+645 error npm -v 1.2.14
+646 error path /usr/lib/node_modules
+647 error fstream_path /usr/lib/node_modules/yuidocjs
+648 error fstream_type Directory
+649 error fstream_class DirWriter
+650 error code EACCES
+651 error errno 3
+652 error stack Error: EACCES, mkdir '/usr/lib/node_modules'
+653 error fstream_stack /usr/lib/nodejs/npm/node_modules/fstream/lib/writer.js:171:23
+653 error fstream_stack /usr/lib/nodejs/npm/node_modules/mkdirp/index.js:37:53
+653 error fstream_stack Object.oncomplete (fs.js:297:15)
+654 verbose exit [ 3, true ]
