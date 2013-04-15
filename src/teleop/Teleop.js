@@ -6,7 +6,7 @@
  * Manages connection to the server and all interactions with ROS.
  *
  * Emits the following events:
- *  * 'change' - emitted with a change in speed occurs
+ *   * 'change' - emitted with a change in speed occurs
  *
  * @constructor
  * @param options - possible keys include:
@@ -16,7 +16,7 @@
  */
 KEYBOARDTELEOP.Teleop = function(options) {
   var that = this;
-  var options = options || {};
+  options = options || {};
   var ros = options.ros;
   var topic = options.topic || '/cmd_vel';
   // permanent throttle
@@ -56,7 +56,7 @@ KEYBOARDTELEOP.Teleop = function(options) {
         break;
       case 87:
         // up
-        x = .5 * speed;
+        x = 0.5 * speed;
 
         break;
       case 68:
@@ -65,15 +65,15 @@ KEYBOARDTELEOP.Teleop = function(options) {
         break;
       case 83:
         // down
-        x = -.5 * speed;
+        x = -0.5 * speed;
         break;
       case 69:
         // strafe right
-        y = -.5 * speed;
+        y = -0.5 * speed;
         break;
       case 81:
         // strafe left
-        y = .5 * speed;
+        y = 0.5 * speed;
         break;
     }
 
