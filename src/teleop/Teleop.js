@@ -59,7 +59,6 @@ KEYBOARDTELEOP.Teleop = function(options) {
       case 87:
         // up
         x = 0.5 * speed;
-
         break;
       case 68:
         // turn right
@@ -77,7 +76,6 @@ KEYBOARDTELEOP.Teleop = function(options) {
         // strafe left
         y = 0.5 * speed;
         break;
-      
       default:
         pub = false;
     }

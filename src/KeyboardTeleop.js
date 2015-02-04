@@ -3,5 +3,5 @@
  */
 
 var KEYBOARDTELEOP = KEYBOARDTELEOP || {
-  REVISION : '3-devel'
+  REVISION : '0.3.0'
 };

@@ -3,7 +3,7 @@
  */
 
 var KEYBOARDTELEOP = KEYBOARDTELEOP || {
-  REVISION : '3-devel'
+  REVISION : '0.3.0'
 };
 
 /**
@@ -50,6 +50,8 @@ KEYBOARDTELEOP.Teleop = function(options) {
     var oldX = x;
     var oldY = y;
     var oldZ = z;
+    
+    var pub = true;
 
     var speed = 0;
     // throttle the speed by the slider and throttle constant
@@ -65,7 +67,6 @@ KEYBOARDTELEOP.Teleop = function(options) {
       case 87:
         // up
         x = 0.5 * speed;
-
         break;
       case 68:
         // turn right
@@ -83,26 +84,30 @@ KEYBOARDTELEOP.Teleop = function(options) {
         // strafe left
         y = 0.5 * speed;
         break;
+      default:
+        pub = false;
     }
 
     // publish the command
-    var twist = new ROSLIB.Message({
-      angular : {
-        x : 0,
-        y : 0,
-        z : z
-      },
-      linear : {
-        x : x,
-        y : y,
-        z : z
-      }
-    });
-    cmdVel.publish(twist);
+    if (pub === true) {
+      var twist = new ROSLIB.Message({
+        angular : {
+          x : 0,
+          y : 0,
+          z : z
+        },
+        linear : {
+          x : x,
+          y : y,
+          z : z
+        }
+      });
+      cmdVel.publish(twist);
 
-    // check for changes
-    if (oldX !== x || oldY !== y || oldZ !== z) {
-      that.emit('change', twist);
+      // check for changes
+      if (oldX !== x || oldY !== y || oldZ !== z) {
+        that.emit('change', twist);
+      }
     }
   };
 
