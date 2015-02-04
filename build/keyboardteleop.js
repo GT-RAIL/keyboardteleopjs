@@ -3,7 +3,7 @@
  */
 
 var KEYBOARDTELEOP = KEYBOARDTELEOP || {
-  REVISION : '0.3.0'
+  REVISION : '0.4.0-SNAPSHOT'
 };
 
 /**
