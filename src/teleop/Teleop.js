@@ -37,7 +37,7 @@ KEYBOARDTELEOP.Teleop = function(options) {
   });
 
   // sets up a key listener on the page used for keyboard teleoperation
-  var handleKey = function(keyCode, keyDown) {
+  this.handleKey = function(keyCode, keyDown) {
     // used to check for changes in speed
     var oldX = x;
     var oldY = y;
@@ -106,10 +106,10 @@ KEYBOARDTELEOP.Teleop = function(options) {
   // handle the key
   var body = document.getElementsByTagName('body')[0];
   body.addEventListener('keydown', function(e) {
-    handleKey(e.keyCode, true);
+    that.handleKey(e.keyCode, true);
   }, false);
   body.addEventListener('keyup', function(e) {
-    handleKey(e.keyCode, false);
+    that.handleKey(e.keyCode, false);
   }, false);
 };
 KEYBOARDTELEOP.Teleop.prototype.__proto__ = EventEmitter2.prototype;
