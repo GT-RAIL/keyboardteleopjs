@@ -1,4 +1,4 @@
-keyboardteleopjs [![Build Status](https://api.travis-ci.org/WPI-RAIL/keyboardteleopjs.png)](https://travis-ci.org/WPI-RAIL/keyboardteleopjs)
+keyboardteleopjs [![Build Status](https://api.travis-ci.org/GT-RAIL/keyboardteleopjs.png)](https://travis-ci.org/GT-RAIL/keyboardteleopjs)
 ================
 
 #### Keyboard Teleoperation via Twist Messages
